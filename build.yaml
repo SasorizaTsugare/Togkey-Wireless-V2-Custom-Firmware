@@ -28,5 +28,5 @@ include:
     snippet: studio-rpc-usb-uart
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: xiao_ble//zmk
-    shield: pad_bt nice_oled
-#    shield: settings_reset
+#    shield: pad_bt nice_oled
+    shield: settings_reset
