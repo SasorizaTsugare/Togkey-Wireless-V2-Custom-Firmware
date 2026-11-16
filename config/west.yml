@@ -5,16 +5,16 @@ manifest:
     #
     # Add more remotes here to pull in out-of-tree modules with your own
     # boards, shields, or behaviour code.
-    - name: Open Source Projects (Open for contributions)
-      url-base: https://gitlab.com/open-source-open-colab
+    - name: SasorizaTsugare
+      url-base: https://github.com/SasorizaTsugare
   projects:
     - name: zmk
       remote: danielsvane
       revision: customkeyboards
       import: app/west.yml
       # support nice_oled and nice_epaper
-    - name: zmk-nice-oled
-      remote: Open Source Projects (Open for contributions)
+    - name: zmk-nice-oled-fromgitlab
+      remote: SasorizaTsugare
       revision: main
   self:
     path: config
