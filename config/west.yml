@@ -14,7 +14,7 @@ manifest:
       import: app/west.yml
       # support nice_oled and nice_epaper
     - name: zmk-nice-oled
-      remote: open source projects
+      remote: open-source-open-colab
       revision: main
   self:
     path: config
