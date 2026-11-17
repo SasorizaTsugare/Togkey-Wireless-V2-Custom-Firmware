@@ -1,5 +1,9 @@
 #include "pad_bt.dtsi"
 
+&uicr {
+        nfct-pins-as-gpios;
+};
+
 &kscan {
     col-gpios = <&xiao_d 0 GPIO_ACTIVE_HIGH>, 
                 <&xiao_d 1 GPIO_ACTIVE_HIGH>, 
