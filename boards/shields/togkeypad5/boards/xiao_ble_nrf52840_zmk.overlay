@@ -1,8 +1,8 @@
 #include <dt-bindings/led/led.h>
 
-#&uicr {
-#        nfct-pins-as-gpios;
-#};
+&uicr {
+        nfct-pins-as-gpios;
+};
 
 &pinctrl {
     spi3_default: spi3_default {
