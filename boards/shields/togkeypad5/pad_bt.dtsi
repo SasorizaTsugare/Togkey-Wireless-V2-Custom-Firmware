@@ -36,7 +36,7 @@
         compatible = "zmk,physical-layout";
         display-name = "TogKey Pad Wireless";
         kscan = <&kscan>;
-        WS2812_STRIP = <&WS2812_STRIP>;
+        #WS2812_STRIP = <&WS2812_STRIP>;
         transform = <&transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
