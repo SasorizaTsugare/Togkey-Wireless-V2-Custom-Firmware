@@ -1,5 +1,5 @@
-# Working but not everything works cleanly
-This project is to add at least the combo support offered by [danielsvane]'s zmk forks to the TogKey Pad Wireless V2. Will be updating everything more later.
+# Working!
+This project is to add at least the combo support offered by [danielsvane]'s zmk forks to the TogKey Pad Wireless V2. Will be updating everything more later. All other base functions of the original firmware are supported too.
 
 
 # ZMK config template (customkeyboards)
